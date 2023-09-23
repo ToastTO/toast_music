@@ -1,4 +1,4 @@
-.side-bar{
+.side-bar {
     background-color: #fffddc;
     height: 100vh;
     width: 280px;
@@ -6,15 +6,14 @@
     border-right: 2px solid #e9e7b7;
 }
 
-.drop-btn{
-    transition: transform 0.3s linear;
+.drop-btn {
+    transition: transform 0.2s linear;
 }
 
-.rotate{
-    transform: rotate(-90deg);
+.rotate {
+    transform: rotate(90deg);
 }
 
-.testing{
-    transition: transform 0.3s linear;
-    transform: rotate(-90deg);
+.content-list {
+    /* height: 60vh; */
 }
