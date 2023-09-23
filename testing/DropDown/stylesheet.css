@@ -1,0 +1,20 @@
+.side-bar{
+    background-color: #fffddc;
+    height: 100vh;
+    width: 280px;
+    /* shorthnd: px style color */
+    border-right: 2px solid #e9e7b7;
+}
+
+.drop-btn{
+    transition: transform 0.3s linear;
+}
+
+.rotate{
+    transform: rotate(-90deg);
+}
+
+.testing{
+    transition: transform 0.3s linear;
+    transform: rotate(-90deg);
+}
