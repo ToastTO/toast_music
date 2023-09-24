@@ -11,133 +11,146 @@
 </head>
 
 <body>
-
-    <div class="side-bar">
-        <!-- Top Logo part -->
-        <div class="logo mx-3 py-3 border-bottom">
-
-            <a href="/toast_music/index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-                <img src="../../img/toast.svg" alt="" class="img-fulid me-2" style="height: 25px;">
-                <span class="fs-5 fw-semibold">多士音樂</span>
-            </a>
-
+    <div class="d-flex">
+        <div class="sidebar-btn m-4 sticky-top d-md-none " id="sidebarBtn">
+            <i class="bi bi-list"></i>
         </div>
-        <!-- content list -->
-        <div class="content-list mx-3 py-4 border-bottom">
-
-            <!-- content item 0: 前言 -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn0" class="drop-btn me-3">
-                    <i class="bi bi-dash-lg text-secondary"></i>
+    
+        <!-- Left Side-Bar -->
+        <div class="side-bar sticky-top" id="sidebar">
+            <!-- Top Logo part -->
+            <div class="logo mx-3 py-4 d-flex d-md-block justify-content-between align-items-center border-bottom">
+    
+                <a href="/toast_music/index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                    <img src="../../img/toast.svg" alt="" class="img-fulid me-2" style="height: 25px;">
+                    <span class="fs-5 fw-semibold">多士音樂</span>
+                </a>
+                <div id="crossBtn" class="cross-btn d-md-none text-secondary">
+                    <i class="bi bi-x-lg"></i>
                 </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">前言</a>
+    
             </div>
-
-            <!-- content item 1: 基本Basic -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn1" class="drop-btn me-3">
-                    <i class="bi bi-chevron-right text-secondary" data-bs-toggle="collapse" href="#sharing1" role="button" aria-expanded="false" aria-controls="sharing1"></i>
+            <!-- content list -->
+            <div class="content-list mx-3 py-4 border-bottom">
+    
+                <!-- content item 0: 前言 -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn0" class="drop-btn me-3">
+                        <i class="bi bi-dash-lg text-secondary"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">前言</a>
                 </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">基本Basic</a>
+    
+                <!-- content item 1: 基本Basic -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn1" class="drop-btn me-3">
+                        <i class="bi bi-chevron-right text-secondary" data-bs-toggle="collapse" href="#sharing1" role="button" aria-expanded="false" aria-controls="sharing1"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">基本Basic</a>
+                </div>
+                <!-- Collapse List -->
+                <div class="collapse" id="sharing1">
+                    <ul class="list-unstyled ms-5">
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Major Scale</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Chord</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Chord Extensions</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Harmonic Analysis 數字Chord</a></li>
+                    </ul>
+                </div>
+    
+                <!-- content item 2: Basic Chord Function -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn2" class="drop-btn me-3 text-secondary">
+                        <i class="bi bi-chevron-right" data-bs-toggle="collapse" href="#sharing2" role="button" aria-expanded="false" aria-controls="sharing2"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Basic Chord Function</a>
+                </div>
+                <div class="collapse" id="sharing2">
+                    <ul class="list-unstyled ms-5">
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">I = 家</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">V = 外面</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">ii, IV = 橋</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">iii, vi = 酒店</a></li>
+                    </ul>
+                </div>
+    
+                <!-- content item 3: Basic Chord Progression -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn3" class="drop-btn me-3">
+                        <i class="bi bi-chevron-right text-secondary" data-bs-toggle="collapse" href="#sharing3" role="button" aria-expanded="false" aria-controls="sharing3"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Basic Chord Progression</a>
+                </div>
+                <div class="collapse" id="sharing3">
+                    <ul class="list-unstyled ms-5">
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Descending Bass Line</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Circular Progression</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Chord Progression可以如何變化？</a></li>
+                    </ul>
+                </div>
+    
+                <!-- content item 4: 好常見唔係Scale嘅chord -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn4" class="drop-btn me-3">
+                        <i class="bi bi-chevron-right text-secondary" data-bs-toggle="collapse" href="#sharing4" role="button" aria-expanded="false" aria-controls="sharing4"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">好常見唔係Scale嘅chord</a>
+                </div>
+                <div class="collapse" id="sharing4">
+                    <ul class="list-unstyled ms-5">
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">副屬和弦</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">其他</a></li>
+                    </ul>
+                </div>
+    
+                <!-- content item 5: 其他常見嘅Chord Progression -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn5" class="drop-btn me-3 text-secondary">
+                        <i class="bi bi-chevron-right" data-bs-toggle="collapse" href="#sharing5" role="button" aria-expanded="false" aria-controls="sharing5"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">其他常見Chord Progression</a>
+                </div>
+                <div class="collapse" id="sharing5">
+                    <ul class="list-unstyled ms-5">
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">I IV vi IV</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">I vi IV V</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">vi IV I V</a></li>
+                        <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Summary</a></li>
+                    </ul>
+                </div>
+    
+                <!-- content item 6: 演繹你自己的音樂 -->
+                <div class="content-list-item d-flex mb-2">
+                    <div id="dropBtn6" class="drop-btn me-3">
+                        <i class="bi bi-dash-lg text-secondary"></i>
+                    </div>
+    
+                    <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">演繹你自己的音樂</a>
+                </div>
             </div>
-            <!-- Collapse List -->
-            <div class="collapse" id="sharing1">
-                <ul class="list-unstyled ms-5">
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Major Scale</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Chord</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Chord Extensions</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Harmonic Analysis 數字Chord</a></li>
+            <div class="logo mx-3 py-3 ms-4 border-bottom">
+    
+                <a href="/toast_music/index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none mb-3">
+                    <span class="fs-5 fw-semibold">AnsonCHUI</span>
+                </a>
+                <ul class="list-unstyled">
+                    <li class="text-decoration-none pb-3"><a href="/index.html" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Home</a></li>
+                    <li class="text-decoration-none pb-3"><a href="#" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Project</a></li>
+                    <li class="text-decoration-none pb-3"><a href="/toast_music/index.html" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Music</a></li>
+                    <li class="text-decoration-none pb-3"><a href="#" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Story</a></li>
                 </ul>
-            </div>
-
-            <!-- content item 2: Basic Chord Function -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn2" class="drop-btn me-3 text-secondary">
-                    <i class="bi bi-chevron-right" data-bs-toggle="collapse" href="#sharing2" role="button" aria-expanded="false" aria-controls="sharing2"></i>
-                </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Basic Chord Function</a>
-            </div>
-            <div class="collapse" id="sharing2">
-                <ul class="list-unstyled ms-5">
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">I = 家</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">V = 外面</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">ii, IV = 橋</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">iii, vi = 酒店</a></li>
-                </ul>
-            </div>
-
-            <!-- content item 3: Basic Chord Progression -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn3" class="drop-btn me-3">
-                    <i class="bi bi-chevron-right text-secondary" data-bs-toggle="collapse" href="#sharing3" role="button" aria-expanded="false" aria-controls="sharing3"></i>
-                </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Basic Chord Progression</a>
-            </div>
-            <div class="collapse" id="sharing3">
-                <ul class="list-unstyled ms-5">
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Descending Bass Line</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Circular Progression</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Chord Progression可以如何變化？</a></li>
-                </ul>
-            </div>
-
-            <!-- content item 4: 好常見唔係Scale嘅chord -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn4" class="drop-btn me-3">
-                    <i class="bi bi-chevron-right text-secondary" data-bs-toggle="collapse" href="#sharing4" role="button" aria-expanded="false" aria-controls="sharing4"></i>
-                </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">好常見唔係Scale嘅chord</a>
-            </div>
-            <div class="collapse" id="sharing4">
-                <ul class="list-unstyled ms-5">
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">副屬和弦</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">其他</a></li>
-                </ul>
-            </div>
-
-            <!-- content item 5: 其他常見嘅Chord Progression -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn5" class="drop-btn me-3 text-secondary">
-                    <i class="bi bi-chevron-right" data-bs-toggle="collapse" href="#sharing5" role="button" aria-expanded="false" aria-controls="sharing5"></i>
-                </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">其他常見Chord Progression</a>
-            </div>
-            <div class="collapse" id="sharing5">
-                <ul class="list-unstyled ms-5">
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">I IV vi IV</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">I vi IV V</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">vi IV I V</a></li>
-                    <li><a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">Summary</a></li>
-                </ul>
-            </div>
-
-            <!-- content item 6: 演繹你自己的音樂 -->
-            <div class="content-list-item d-flex mb-2">
-                <div id="dropBtn6" class="drop-btn me-3">
-                    <i class="bi bi-dash-lg text-secondary"></i>
-                </div>
-
-                <a href="" class="link-secondary link-underline-opacity-0 link-underline-opacity-100-hover">演繹你自己的音樂</a>
             </div>
         </div>
-        <div class="logo mx-3 py-3 border-bottom">
-
-            <a href="/toast_music/index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none mb-3">
-                <span class="fs-5 fw-semibold">AnsonCHUI</span>
-            </a>
-            <ul class="list-unstyled">
-                <li class="text-decoration-none pb-3"><a href="/index.html" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Home</a></li>
-                <li class="text-decoration-none pb-3"><a href="#" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Project</a></li>
-                <li class="text-decoration-none pb-3"><a href="/toast_music/index.html" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Music</a></li>
-                <li class="text-decoration-none pb-3"><a href="#" class="link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-75-hover">Story</a></li>
-            </ul>
-        </div>
+    
+        <section class="content" id="content">
+            <H1>Hello~</H1>
+        </section>
     </div>
 
     <script src="rotation.js"></script>
